@@ -1,0 +1,257 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.273);
+  height: 300vh;
+}
+header {
+  margin-top: 200px;
+}
+img {
+  width: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav__section {
+  background: #b36050;
+  padding: 10px;
+  text-align: center;
+}
+.nav__title {
+  color: white;
+}
+.hero__shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  color: #b4604d;
+}
+.logo {
+  width: 500px;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Edit {
+  display: flex;
+  gap: 30px;
+}
+.figma {
+  margin-right: 30px;
+}
+.Shoping {
+  margin-right: 120px;
+}
+.hero {
+  background-color: white;
+}
+.Hero-img {
+  width: 1200px;
+}
+.Wrapper {
+  background: #a9ae8d;
+  width: 1200px;
+  margin: auto;
+}
+.wrapper-info {
+  text-align: center;
+  color: white;
+  height: 210px;
+}
+.Data {
+  padding-top: 50px;
+}
+.btn {
+  background: #b45f4d;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.Title {
+  padding-top: 10px;
+}
+.Shop-Wrap {
+  background-color: whitesmoke;
+  height: 740px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 55px;
+  margin-left: 100px;
+}
+li {
+  width: 300px;
+  height: 580px;
+}
+.images-p {
+  font-size: 18px;
+  color: #b45f4d;
+  padding-top: 30px;
+}
+.link {
+  color: #b45f4d;
+  margin-top: 15px;
+}
+.strelka__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strelka {
+  margin: auto;
+  width: 1000px;
+}
+.wrapper {
+  background-image: url(./images/image\ 3.jpg);
+  width: 1200px;
+  height: 405px;
+  position: relative;
+}
+.position {
+  width: 1200px;
+  margin: auto;
+  padding: 25px;
+  color: white;
+  background: #df9b7a;
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+}
+.Meet {
+  background: #f1d3b9;
+}
+.daet {
+  width: 500px;
+  background-color: white;
+  height: 750px;
+}
+.wrapper-deea {
+  display: flex;
+  gap: 100px;
+  padding-top: 60px;
+  padding-left: 47px;
+}
+.Meet {
+  height: 880px;
+}
+.dea-title {
+  padding-top: 180px;
+  color: #b45f4d;
+  text-align: center;
+  font-size: 30px;
+}
+.dead {
+  padding-top: 22px;
+  color: #b45f4d;
+  padding-left: 70px;
+}
+.dead-info {
+  font-size: 19px;
+  line-height: 30.4px;
+}
+.More {
+  padding-top: 45px;
+  color: #b45f4d;
+  padding-left: 70px;
+}
+.bagraund {
+  background-image: url(./images/Screenshot\ 2024-10-23\ 225625.png);
+  width: 180px;
+  height: 170px;
+  position: relative;
+}
+
+.Dae-img {
+  background-color: white;
+  height: 300px;
+}
+.position2 {
+  width: 40px;
+  position: absolute;
+  bottom: 15px;
+  left: 65px;
+}
+.bacround {
+  display: flex;
+  gap: 10px;
+  padding-left: 32px;
+  padding-top: 70px;
+}
+form {
+  display: flex;
+  width: 485px;
+  border: 1px solid #9e1d00;
+  background-color: rgba(245, 222, 179, 0.108);
+  gap: 25px;
+  margin-top: 20px;
+}
+.button2 {
+  border: none;
+  padding: 10px;
+  background-color: rgba(245, 222, 179, 0.083);
+  width: 450px;
+  text-align: right;
+  background-color: #d64374;
+}
+input {
+  border: none;
+  background-color: rgba(245, 222, 179, 0.211);
+  outline: none;
+}
+
+.card2 {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.card3 {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  padding-top: 50px;
+  background-color: rgba(245, 222, 179, 0.211);
+  width: 1200px;
+  margin: auto;
+  height: 250px;
+}
+.class {
+  width: 1100px;
+  margin: 0 auto;
+  color: #c17c6c;
+}
+hr {
+  border: 1px solid #c17c6c;
+  width: 1200px;
+  margin: auto;
+}
+.card4 {
+  width: 1200px;
+  margin: auto;
+}
+.code {
+  text-align: center;
+  padding: 25px;
+}
+.footer2 {
+  background-color: rgba(245, 222, 179, 0.211);
+  width: 1200px;
+  margin: auto;
+}
